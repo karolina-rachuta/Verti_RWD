@@ -1,0 +1,16 @@
+{
+  "name": "verti",
+  "version": "1.0.0",
+  "description": "responsive webpage, HTML5, CSS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/styles:src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Karolina Rachuta",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
