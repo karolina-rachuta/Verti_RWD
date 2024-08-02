@@ -1,0 +1,45 @@
+@import '../variables.scss';
+
+.nav {
+    width: 100%;
+    max-width: 1400px;
+    border: 1px solid grey;
+    background-color: pink;
+    margin: 0 auto;
+
+    .nav-menu {
+        & ul li {
+            list-style: none;
+        }
+    }
+
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.0625rem;
+        background-color: lightgrey;
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+        padding: 0.125rem;
+
+        & span {
+            height: 0.2rem;
+            width: 60%;
+            margin: 1px;
+            background-color: white;
+            border-radius: 0.1rem;
+            z-index: 1;
+        }
+
+        @media screen and (min-width: 500px) {
+            display: none;
+        }
+    }
+
+
+}
