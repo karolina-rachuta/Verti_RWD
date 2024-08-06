@@ -1,6 +1,7 @@
 .nav {
   width: 100%;
   max-width: 1400px;
+  max-height: 200px;
   border: 1px solid grey;
   background-color: pink;
   margin: 0 auto;
@@ -21,10 +22,21 @@
 }
 .nav .nav-menu ul {
   display: none;
+}
+.nav .nav-menu ul.open {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 @media only screen and (min-width: 585px) {
+  .nav .nav-menu ul.open {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+@media only screen and (min-width: 585px) {
   .nav .nav-menu ul {
+    display: flex;
     flex-direction: row;
     gap: 20px;
   }
@@ -56,6 +68,7 @@
   height: 40px;
   margin-bottom: 20px;
   padding: 0.125rem;
+  cursor: pointer;
 }
 .nav .hamburger span {
   height: 0.2rem;
@@ -65,7 +78,7 @@
   border-radius: 0.1rem;
   z-index: 1;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 585px) {
   .nav .hamburger {
     display: none;
   }
