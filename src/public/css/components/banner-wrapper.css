@@ -1,0 +1,87 @@
+.banner-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-wrapper .banner-wrapper-container {
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+@media only screen and (min-width: 740px) {
+  .banner-wrapper .banner-wrapper-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    margin-inline: 17px;
+    max-height: 320px;
+  }
+}
+.banner-wrapper .banner-wrapper-container .banner-text h2 {
+  color: #444444;
+  font-family: "Open-sans", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+@media only screen and (min-width: 740px) {
+  .banner-wrapper .banner-wrapper-container .banner-text h2 {
+    font-size: 52px;
+  }
+}
+.banner-wrapper .banner-wrapper-container .banner-text p {
+  font-size: 22px;
+  font-weight: 200;
+  font-family: "Open-sans", sans-serif;
+  color: #696969;
+  text-align: center;
+}
+@media only screen and (min-width: 740px) {
+  .banner-wrapper .banner-wrapper-container .banner-text p {
+    font-size: 40px;
+  }
+}
+.banner-wrapper .banner-wrapper-container .banner-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.banner-wrapper .banner-wrapper-container .banner-buttons button {
+  background-color: #1691C3;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Open-sans", sans-serif;
+  text-decoration: none;
+  padding: 15px 25px 15px;
+  max-width: 280px;
+  width: 100%;
+}
+@media only screen and (min-width: 740px) {
+  .banner-wrapper .banner-wrapper-container .banner-buttons button {
+    font-size: 33px;
+  }
+}
+.banner-wrapper .banner-wrapper-container .banner-buttons button:last-child {
+  color: #444444;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/*# sourceMappingURL=banner-wrapper.css.map */

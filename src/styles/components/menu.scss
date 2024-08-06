@@ -6,12 +6,13 @@ header {
     justify-content: center;
     align-items: center;
     max-width: 1400px;
-    max-height: 350px;
-    border: 1px solid grey;
+    max-height: 470px;
     background-color: $bg-color;
     margin: 0 auto;
     gap: 10px;
     padding-inline: 15px;
+    padding-top: 66px;
+    padding-bottom: 44px;
 
     @media only screen and (min-width: 740px) {
         flex-direction: row;
@@ -39,6 +40,7 @@ header {
             padding: 8.067px 11.092px;
             background-color: $logo-bg-color;
             font-family: 'Oleo Script', serif;
+            font-size: 40px;
 
             a {
                 text-decoration: none;
@@ -163,7 +165,7 @@ header {
             padding: 0.125rem;
             cursor: pointer;
             position: absolute;
-            top: -130px;
+            top: -150px;
             left: 0px;
 
             & span {

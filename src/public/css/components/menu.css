@@ -4,12 +4,13 @@ header {
   justify-content: center;
   align-items: center;
   max-width: 1400px;
-  max-height: 350px;
-  border: 1px solid grey;
+  max-height: 470px;
   background-color: #E4E4E4;
   margin: 0 auto;
   gap: 10px;
   padding-inline: 15px;
+  padding-top: 66px;
+  padding-bottom: 44px;
 }
 @media only screen and (min-width: 740px) {
   header {
@@ -39,6 +40,7 @@ header .logo h1 {
   padding: 8.067px 11.092px;
   background-color: #FC4887;
   font-family: "Oleo Script", serif;
+  font-size: 40px;
 }
 header .logo h1 a {
   text-decoration: none;
@@ -150,7 +152,7 @@ header .nav .hamburger {
   padding: 0.125rem;
   cursor: pointer;
   position: absolute;
-  top: -130px;
+  top: -150px;
   left: 0px;
 }
 header .nav .hamburger span {

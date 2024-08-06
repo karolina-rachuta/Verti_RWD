@@ -1,0 +1,93 @@
+@import '../variables.scss';
+
+.banner-wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .banner-wrapper-container {
+        background-color: #fff;
+        border-radius: 6px;
+        margin: 0 auto;
+        //margin-inline: 85px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+
+        @media only screen and (min-width: 740px) {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            width: 100%;
+            // text-align: justify;
+            margin-inline: 17px;
+            max-height: 320px;
+        }
+
+        .banner-text {
+            h2 {
+                color: $text-color;
+                font-family: 'Open-sans', sans-serif;
+                font-size: 22px;
+                font-weight: 800;
+                margin-top: 22px;
+                margin-bottom: 15px;
+                text-align: center;
+
+                @media only screen and (min-width: 740px) {
+                    font-size: 52px;
+                }
+            }
+
+            p {
+                font-size: 22px;
+                font-weight: 200;
+                font-family: 'Open-sans', sans-serif;
+                color: $second-text-color;
+                text-align: center;
+
+                @media only screen and (min-width: 740px) {
+                    font-size: 40px;
+                }
+            }
+        }
+
+        .banner-buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+
+            button {
+                background-color: $botton-border-color;
+                border: none;
+                border-radius: 6px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 800;
+                font-family: 'Open-sans', sans-serif;
+                text-decoration: none;
+                padding: 15px 25px 15px;
+                max-width: 280px;
+                width: 100%;
+
+                @media only screen and (min-width: 740px) {
+                    font-size: 33px;
+                }
+
+                &:last-child {
+                    color: $text-color;
+                    background-color: rgba(0, 0, 0, 0.05);
+                }
+            }
+        }
+    }
+}
