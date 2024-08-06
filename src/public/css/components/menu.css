@@ -37,9 +37,12 @@ header .logo {
 header .logo h1 {
   border-radius: 6px;
   padding: 8.067px 11.092px;
-  background-color: #ff4486;
+  background-color: #FC4887;
   font-family: "Oleo Script", serif;
-  color: white;
+}
+header .logo h1 a {
+  text-decoration: none;
+  color: #fff;
 }
 header .logo span {
   display: inline-block;
@@ -154,7 +157,7 @@ header .nav .hamburger span {
   height: 0.2rem;
   width: 60%;
   margin: 1px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 0.1rem;
   z-index: 1;
 }
