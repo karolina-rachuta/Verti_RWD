@@ -1,0 +1,162 @@
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-color;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+    @media only screen and (min-width: 827px) {
+        max-width: 1200px;
+    }
+
+    .about-wrapper-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap: 40px;
+        background-color: #fff;
+        max-width: 827px;
+        border-radius: 6px;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 0px 0px;
+
+
+        @media only screen and (min-width: 827px) {
+            flex-direction: row;
+            align-items: start;
+            max-width: 1200px;
+            margin: 17px;
+        }
+
+        .about-img-inner-box {
+            order: 2;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            gap: 20px;
+
+            @media only screen and (min-width: 827px) {
+                order: 1;
+                width: 70%;
+            }
+
+            h3 {
+                width: 100%;
+                padding-left: 10px;
+                text-align: left;
+                color: $text-color;
+                font-weight: 800;
+                font-size: 17.5px;
+                margin-top: 25px;
+
+                @media only screen and (min-width: 827px) {
+                    margin-top: 25px;
+                }
+            }
+
+            div {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                    max-width: 50%;
+                    padding: 5px;
+                    border-radius: 20px;
+
+                    @media only screen and (min-width: 600px) {
+                        padding: 10px;
+                    }
+
+                    @media only screen and (min-width: 827px) {
+                        padding: 5px;
+                    }
+                }
+            }
+
+            button {
+                background-color: $botton-border-color;
+                border: none;
+                border-radius: 6px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 800;
+                text-decoration: none;
+                padding: 15px 25px 15px;
+                max-width: 800px;
+                width: 100%;
+                cursor: pointer;
+
+                @media only screen and (min-width: 827px) {
+                    max-width: 50%;
+                }
+            }
+
+        }
+
+        .about-text-inner-box {
+            order: 1;
+            border-bottom: 1px lightgray solid;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            gap: 30px;
+
+            @media only screen and (min-width: 827px) {
+                order: 2;
+                border-bottom: none;
+            }
+
+            h2 {
+                width: 100%;
+                text-align: left;
+                margin-top: 20px;
+                color: $text-color;
+                font-size: 33px;
+                font-weight: 800;
+            }
+
+            p {
+                width: 100%;
+                text-align: justify;
+                font-size: 15px;
+                color: $second-text-color;
+                font-weight: 200;
+            }
+
+            button {
+                background-color: $botton-border-color;
+                border: none;
+                border-radius: 6px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 800;
+                text-decoration: none;
+                padding: 15px 25px 15px;
+                max-width: 800px;
+                width: 100%;
+                cursor: pointer;
+                margin-bottom: 15px;
+
+                @media only screen and (min-width: 827px) {
+                    max-width: 70%;
+                }
+            }
+        }
+
+
+
+    }
+}
