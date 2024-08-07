@@ -427,7 +427,7 @@ header .nav .nav-menu ul li a {
     padding: 6.6px 13.2px;
     border-radius: 6px;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 800;
   }
   header .nav .nav-menu ul li:hover {
@@ -747,6 +747,7 @@ header .nav .hamburger span {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  padding-inline: 20px;
   gap: 30px;
 }
 @media only screen and (min-width: 827px) {
@@ -782,11 +783,11 @@ header .nav .hamburger span {
   max-width: 800px;
   width: 100%;
   cursor: pointer;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 @media only screen and (min-width: 827px) {
   .about-wrapper .about-wrapper-container .about-text-inner-box button {
-    max-width: 70%;
+    max-width: 50%;
   }
 }
 
@@ -824,7 +825,7 @@ header .nav .hamburger span {
     max-width: 1800px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .footer .footer-container {
     flex-wrap: nowrap;
     max-width: 1800px;
@@ -920,7 +921,7 @@ html {
   max-width: 1800px;
   background-color: #E4E4E4;
   margin: 0 auto;
-  padding-inline: 20px;
+  padding-inline: 100px;
   font-family: "Open Sans", sans-serif;
 }
 
