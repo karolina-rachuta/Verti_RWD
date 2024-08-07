@@ -1,7 +1,11 @@
 # Verti
 Example of RWD website
+
+## Live Demo
+https://verti-rwd.netlify.app/
+
 ## Tech stack
-- Javascript
+- JavaScript
 - HTML5
 - SCSS
 - RWD
