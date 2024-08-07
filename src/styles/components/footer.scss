@@ -1,3 +1,5 @@
+@import '../variables.scss';
+
 .footer {
     width: 100%;
     margin: 0 auto;
@@ -8,7 +10,7 @@
     align-items: center;
 
     @media screen and (min-width: 827px) {
-        max-width: 1200px;
+        max-width: 1800px;
     }
 
     .footer-container {
@@ -27,11 +29,12 @@
             padding-inline: 30px;
             gap: 10px;
             width: 100%;
-            max-width: 1200px;
+            max-width: 1800px;
         }
 
         @media screen and (min-width: 1000px) {
             flex-wrap: nowrap;
+            max-width: 1800px;
         }
 
         .footer-inner-box {
@@ -49,8 +52,6 @@
                 border-bottom: none;
                 width: 40%;
             }
-
-
 
             h2 {
                 width: 100%;

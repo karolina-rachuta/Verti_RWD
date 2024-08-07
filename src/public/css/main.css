@@ -312,7 +312,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1400px;
   max-height: 470px;
   background-color: #E4E4E4;
   margin: 0 auto;
@@ -321,11 +320,12 @@ header {
   padding-top: 66px;
   padding-bottom: 44px;
 }
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 827px) {
   header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    max-width: 1800px;
   }
 }
 header .logo {
@@ -335,7 +335,7 @@ header .logo {
   justify-content: center;
   padding-top: 30px;
 }
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 827px) {
   header .logo {
     flex-direction: row;
     justify-content: center;
@@ -372,7 +372,7 @@ header .nav .nav-menu {
   display: block;
   height: 100%;
 }
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 827px) {
   header .nav .nav-menu {
     display: flex;
     height: 100%;
@@ -388,13 +388,13 @@ header .nav .nav-menu ul.open {
   flex-direction: column;
   gap: 10px;
 }
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 827px) {
   header .nav .nav-menu ul.open {
     flex-direction: row;
     gap: 10px;
   }
 }
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 827px) {
   header .nav .nav-menu ul {
     display: flex;
     flex-direction: row;
@@ -418,7 +418,7 @@ header .nav .nav-menu ul li:last-child {
 header .nav .nav-menu ul li a {
   color: #444444;
 }
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 827px) {
   header .nav .nav-menu ul li {
     text-align: center;
     border: none;
@@ -469,7 +469,7 @@ header .nav .hamburger span {
   border-radius: 0.1rem;
   z-index: 1;
 }
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 827px) {
   header .nav .hamburger {
     display: none;
   }
@@ -484,7 +484,7 @@ header .nav .hamburger span {
 }
 @media only screen and (min-width: 827px) {
   .banner-wrapper {
-    max-width: 1200px;
+    max-width: 1800px;
     width: 100%;
   }
 }
@@ -510,7 +510,7 @@ header .nav .hamburger span {
     width: 100%;
     margin-inline: 17px;
     max-height: 320px;
-    max-width: 1200px;
+    max-width: 1800px;
   }
 }
 .banner-wrapper .banner-wrapper-container .banner-text h2 {
@@ -579,7 +579,7 @@ header .nav .hamburger span {
 }
 @media only screen and (min-width: 827px) {
   .features-wrapper {
-    max-width: 1200px;
+    max-width: 1800px;
   }
 }
 .features-wrapper .features-wrapper-container {
@@ -593,7 +593,7 @@ header .nav .hamburger span {
 @media only screen and (min-width: 827px) {
   .features-wrapper .features-wrapper-container {
     flex-direction: row;
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 17px;
   }
 }
@@ -642,7 +642,7 @@ header .nav .hamburger span {
 }
 @media only screen and (min-width: 827px) {
   .about-wrapper {
-    max-width: 1200px;
+    max-width: 1800px;
   }
 }
 .about-wrapper .about-wrapper-container {
@@ -661,7 +661,7 @@ header .nav .hamburger span {
   .about-wrapper .about-wrapper-container {
     flex-direction: row;
     align-items: start;
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 17px;
   }
 }
@@ -799,7 +799,7 @@ header .nav .hamburger span {
 }
 @media screen and (min-width: 827px) {
   .footer {
-    max-width: 1200px;
+    max-width: 1800px;
   }
 }
 .footer .footer-container {
@@ -819,12 +819,13 @@ header .nav .hamburger span {
     padding-inline: 30px;
     gap: 10px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1800px;
   }
 }
 @media screen and (min-width: 1000px) {
   .footer .footer-container {
     flex-wrap: nowrap;
+    max-width: 1800px;
   }
 }
 .footer .footer-container .footer-inner-box {
@@ -914,7 +915,7 @@ html {
 .container {
   width: 100%;
   height: 100%;
-  max-width: 1500px;
+  max-width: 1800px;
   background-color: #E4E4E4;
   margin: 0 auto;
   padding-inline: 20px;

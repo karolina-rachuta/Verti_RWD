@@ -8,7 +8,7 @@
     max-width: 827px;
 
     @media only screen and (min-width: 827px) {
-        max-width: 1200px;
+        max-width: 1800px;
         width: 100%;
     }
 
@@ -24,7 +24,6 @@
         align-items: center;
         gap: 10px;
         width: 100%;
-        //max-width: 827px;
 
         @media only screen and (min-width: 827px) {
             flex-direction: row;
@@ -34,7 +33,7 @@
             width: 100%;
             margin-inline: 17px;
             max-height: 320px;
-            max-width: 1200px;
+            max-width: 1800px;
         }
 
         .banner-text {
