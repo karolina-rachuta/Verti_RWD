@@ -14,9 +14,9 @@ Example of RWD website
 
 ## Screenshots:
 - Desktop:
+
 ![screenshot](./src/assets/desktop.png)
+
 - Mobile:
+
 ![screenshot](./src/assets/mobile01.png)
-![screenshot](./src/assets/mobile02.png)
-![screenshot](./src/assets/mobile03.png)
-![screenshot](./src/assets/mobile04.png)
