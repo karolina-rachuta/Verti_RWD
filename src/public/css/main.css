@@ -371,13 +371,12 @@ header .nav {
 header .nav .nav-menu {
   display: block;
   height: 100%;
-  width: 40%;
+  width: 100%;
 }
 @media only screen and (min-width: 827px) {
   header .nav .nav-menu {
     display: flex;
     height: 100%;
-    width: 100%;
     justify-content: end;
     align-items: flex-end;
   }
@@ -439,6 +438,7 @@ header .nav .nav-menu ul li a {
 }
 header .nav .nav-menu ul li:first-child {
   background-color: #444444;
+  border-radius: 6px;
 }
 header .nav .nav-menu ul li:first-child a {
   color: #fff;

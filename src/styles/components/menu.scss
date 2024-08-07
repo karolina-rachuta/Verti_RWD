@@ -66,12 +66,11 @@ header {
         .nav-menu {
             display: block;
             height: 100%;
-            width: 40%;
+            width: 100%;
 
             @media only screen and (min-width: 827px) {
                 display: flex;
                 height: 100%;
-                width: 100%;
                 justify-content: end;
                 align-items: flex-end;
             }
@@ -136,6 +135,7 @@ header {
 
                     &:first-child {
                         background-color: $text-color;
+                        border-radius: 6px;
 
                         a {
                             color: #fff;
