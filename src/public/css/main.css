@@ -921,8 +921,13 @@ html {
   max-width: 1800px;
   background-color: #E4E4E4;
   margin: 0 auto;
-  padding-inline: 100px;
+  padding-inline: 0;
   font-family: "Open Sans", sans-serif;
+}
+@media only screen and (min-width: 827px) {
+  .container {
+    padding-inline: 100px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
